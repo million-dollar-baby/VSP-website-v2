@@ -56,7 +56,7 @@ function showImg(id) {
                             var t = 300; //Change this to Number of Images in the folder
                             var i = 1;
                             for(var i=1; i<t;i++){
-                            $('#images').append('<div id="image' + i +'" class="centerImg" style="margin-bottom: 2px; background-image: url(images/' + id + '/' + i +'.jpg); background-size:contain;background-position: center;background-repeat: no-repeat;"><img width="100%" style="max-width:800px; max-height:800px; opacity: 0;" src="images/' + id + '/copyright/' + i +' copy.jpg" onError="this.remove();"/></div>');
+                            $('#images').append('<div id="image' + i +'" class="centerImg" style="margin-bottom: 0px; background-image: url(images/' + id + '/' + i +'.jpg); background-size:contain;background-position: center;background-repeat: no-repeat;"><img width="100%" style="max-width:800px; max-height:800px; opacity: 0;" src="images/' + id + '/copyright/' + i +' copy.jpg" onError="this.remove();"/></div>');
                             }
                             });
     $('#container').fadeIn("slow");
