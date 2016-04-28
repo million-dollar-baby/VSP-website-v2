@@ -28,9 +28,10 @@ body, html {
 
 #loader {
     position: absolute;
-    margin-left: -33;
+    margin-left: -50px;
     left: 50%;
-    margin-top: 100px;
+    top: 50%;
+    margin-top: -50px;
     z-index: -10000;
     text-align: center;
 }
