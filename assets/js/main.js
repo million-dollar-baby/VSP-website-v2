@@ -1,9 +1,7 @@
 function initialize() {
 
     OSCheck();
-    if(document.readyState === 'complete') {
-        $('#loader').css('visibility', 'hidden');
-    }
+    
 }
 function OSCheck () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
@@ -67,9 +65,5 @@ function showImg(id) {
     }
                             
                             });
-    $('#container').fadeIn("slow", function() {
-        if(document.readyState === 'complete') {
-        $('#loader').css('visibility', 'hidden');
-    }
-    });
+    $('#container').fadeIn("slow");
 }
