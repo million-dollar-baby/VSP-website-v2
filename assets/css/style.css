@@ -295,7 +295,7 @@ body, html {
 
 #copy {
     position: relative;
-    width: 50%;
+    width: 70%;
     float: left;
     font-size: 1em;
     margin-left: 1em;
@@ -308,7 +308,7 @@ body, html {
 }
 
 #social-icons {
-    width: 30%;
+    width: 20%;
     text-align: right;
     float: right;
     margin-right: 1em;
