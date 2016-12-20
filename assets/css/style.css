@@ -1,6 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
+    min-width: 1280px;
     font-family: 'Lato-Light';
     -webkit-font-smoothing: antialiased;
 }
@@ -44,6 +45,7 @@ body, html {
 /* Header */
 #header {
     position: fixed;
+    min-width: 1280px;
     height: 6em;
     top: 0;
     left: 0;
@@ -92,12 +94,14 @@ body, html {
     right: 0;
     bottom: 3em;
     overflow-y: auto;
+    min-width: 1280px;
 }
 
 #album-viewer {
     position: relative;
     float: left;
     width: 100%;
+    min-width: 1280px;
 }
 
 #text {
@@ -164,7 +168,7 @@ body, html {
 
     
 }
-@media (max-width: 800px) {
+@media (max-width: 200px) {
     #photos {
         -moz-column-count:    3;
         -webkit-column-count: 3;
@@ -176,6 +180,7 @@ body, html {
     /* Header */
     #header {
         position: fixed;
+        min-width: 1280px;
         height: auto;
         display: none;
     }
@@ -328,7 +333,7 @@ body, html {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 200px) {
     #mfooter {
         display: inherit;
         position: relative;
