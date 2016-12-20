@@ -1,7 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
-    min-width: 1280px;
+    min-width: 480px;
     font-family: 'Lato-Light';
     -webkit-font-smoothing: antialiased;
 }
@@ -45,7 +45,7 @@ body, html {
 /* Header */
 #header {
     position: fixed;
-    min-width: 1280px;
+    min-width: 480px;
     height: 6em;
     top: 0;
     left: 0;
@@ -62,11 +62,11 @@ body, html {
 }
 
 #nav {
-    width: 400px;
+    width: 30%;
     text-align: right;
     float: right;
     margin-right: 0em;
-    margin-top: 2em;
+    margin-top: 1.2em;
     margin-bottom: 2em;
 }
 
@@ -94,14 +94,14 @@ body, html {
     right: 0;
     bottom: 3em;
     overflow-y: auto;
-    min-width: 1280px;
+    min-width: 480px;
 }
 
 #album-viewer {
     position: relative;
     float: left;
     width: 100%;
-    min-width: 1280px;
+    min-width: 480px;
 }
 
 #text {
@@ -180,7 +180,7 @@ body, html {
     /* Header */
     #header {
         position: fixed;
-        min-width: 1280px;
+        min-width: 480px;
         height: auto;
         display: none;
     }
