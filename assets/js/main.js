@@ -5,6 +5,28 @@ function initialize() {
 }
 function OSCheck () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        $('#logo').fadeOut("fast", function(){
+                                $('#photos').html('');
+                                loadImagesMobile();
+                                $('#galleryImg').css('visibility', 'hidden');
+                                });
+        $('#container').fadeIn("slow");
+    } else {
+        $('#container').fadeOut("fast", function(){
+                                $('#photos').html('');
+                                loadImages();
+                                });
+        $('#container').fadeIn("slow");
+    }
+}
+
+
+
+
+
+
+function OSCheck () {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         $('#container').fadeOut("fast", function(){
                                 $('#photos').html('');
                                 loadImagesMobile();
@@ -19,6 +41,15 @@ function OSCheck () {
         $('#container').fadeIn("slow");
     }
 }
+
+
+
+
+
+
+
+
+
 function loadImages() {
     var t = 100; //Change this to Number of Images in the folder
     var i = 0;
