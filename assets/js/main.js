@@ -93,6 +93,7 @@ function showImg(id) {
                             
                             if(document.readyState === 'loading') {
         $('#loader').css('visibility', 'visible');
+                            
     }
                             
                             });
